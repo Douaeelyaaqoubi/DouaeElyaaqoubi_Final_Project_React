@@ -1,10 +1,14 @@
 import React from 'react';
+import Nav_barr from '../../../componets/nav_barr';
+import Banner from './banner';
 
 const Shop = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Nav_barr />
+            <Banner />
+
+        </>
     );
 };
 
