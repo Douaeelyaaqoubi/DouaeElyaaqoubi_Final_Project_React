@@ -7,7 +7,7 @@ const Nav_barr = () => {
 
     return (
         <>
-            <nav className="bg-neutral-primary flex justify-between items-center  py-4 shadow px-[5vw]">
+            <nav className="fixed t-0 z-20 w-full bg-white flex  justify-between items-center  py-4 shadow px-[5vw]">
             
 
                 <a href="#" className="flex  items-center space-x-3">
