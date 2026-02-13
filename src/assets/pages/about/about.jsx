@@ -2,16 +2,10 @@ import Nav_barr from "../../../componets/nav_barr";
 import Footer from "../../../componets/footer";
 import { aboutimg } from "../../../constants";
 import { Img } from '../../../constants/img';
-<<<<<<< HEAD
-=======
-import Banner from "../../../componets/banner";
-
->>>>>>> c9f7680 (push about page)
 function About() {
   return (
     <>
       <Nav_barr />
-<<<<<<< HEAD
 
       <section
         className="relative h-11 md:h-50 bg-cover bg-center flex items-center justify-center"
@@ -23,11 +17,6 @@ function About() {
           ABOUT
         </h1>
       </section>
-=======
-      <Banner />
-
-
->>>>>>> c9f7680 (push about page)
 
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">

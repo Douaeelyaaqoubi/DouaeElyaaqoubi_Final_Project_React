@@ -2,17 +2,10 @@ import Footer from "../../componets/footer";
 import Nav_barr from "../../componets/nav_barr";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-<<<<<<< HEAD
 
 function Contact() {
   const [first_name, setFirst_name] = useState("");
 
-=======
-import Banner from "../../componets/banner";
-
-function Contact() {
-  const [first_name, setFirst_name] = useState("");
->>>>>>> c9f7680 (push about page)
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
@@ -49,7 +42,6 @@ function Contact() {
   return (
     <div>
       <Nav_barr />
-<<<<<<< HEAD
 
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
@@ -61,22 +53,6 @@ function Contact() {
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5901.408187417011!2d-83.714185!3d42.306179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cac2e96faa0eb%3A0xa01144dd61fabe3c!2s2300%20Traverwood%20Dr%2C%20Ann%20Arbor%2C%20MI%2048105!5e0!3m2!1sen!2sus!4v1770835347159!5m2!1sen!2sus"
             ></iframe>
-=======
-      <Banner />
-
-      <section className="text-gray-600 body-font  relative px-[5vw]">
-        
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-2/3  rounded-lg overflow-hidden p-10 flex items-end justify-start relative">
-            <iframe
-              width="80%"
-              height="100%"
-              className="absolute "
-              title="map"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5901.408187417011!2d-83.714185!3d42.306179!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cac2e96faa0eb%3A0xa01144dd61fabe3c!2s2300%20Traverwood%20Dr%2C%20Ann%20Arbor%2C%20MI%2048105!5e0!3m2!1sen!2sus!4v1770835347159!5m2!1sen!2sus">
-
-              </iframe>
->>>>>>> c9f7680 (push about page)
           </div>
 
           {/* FORM SECTION */}
