@@ -16,7 +16,11 @@ function Details() {
     if (!pruduct) { return (
         <p>pruduct not found</p>
     )
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> c9f7680 (push about page)
     }
 
 
